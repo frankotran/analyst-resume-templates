@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cover Letter — Template</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,serif;color:#1c2420;background:#f4f6f4;line-height:1.7}
+.page{max-width:720px;margin:32px auto;background:#fff;padding:56px;box-shadow:0 4px 24px rgba(0,0,0,.08);font-size:15.5px}
+.page p{margin-bottom:16px}
+.fill{background:#fff8d6;border-bottom:2px dashed #d9a400;padding:0 4px}
+.hint{font-family:-apple-system,sans-serif;font-size:12.5px;color:#8a7a00;background:#fffbe8;border:1px solid #f0df9a;border-radius:8px;padding:8px 12px;margin-bottom:16px}
+.toolbar{position:fixed;top:0;left:0;right:0;background:#0c1210;color:#eaf3ec;padding:10px 20px;font-size:13px;display:flex;gap:14px;align-items:center;z-index:99;font-family:-apple-system,sans-serif}
+.toolbar button{background:#3ddc84;border:none;border-radius:8px;padding:8px 16px;font-weight:700;cursor:pointer}
+.toolbar a{color:#3ddc84}
+@page{size:Letter;margin:1in}
+@media print{.toolbar,.hint{display:none}.page{margin:0;box-shadow:none;max-width:none;padding:0}body{background:#fff}.fill{background:none;border:none;padding:0}}
+</style>
+</head>
+<body>
+<div class="toolbar">✏️ Fill in the <b>highlighted parts</b>, delete the gray hint boxes, then <button onclick="window.print()">Print / Save as PDF</button> <a href="../index.html">← Back to store</a></div>
+<div class="page">
+<p><span class="fill">Your Name</span><br><span class="fill">City, ST</span> · <span class="fill">email</span> · <span class="fill">phone</span> · <span class="fill">linkedin</span></p>
+<p><span class="fill">Date</span></p>
+<p><span class="fill">Hiring Manager Name</span> (or "Hiring Team")<br><span class="fill">Company</span></p>
+<p>Dear <span class="fill">Name / Hiring Team</span>,</p>
+<div class="hint">PARAGRAPH 1 — Hook: role + your headline result. One or two sentences max.</div>
+<p>I'm applying for the <span class="fill">Senior Data Analyst</span> role at <span class="fill">Company</span>. As an analyst who <span class="fill">cut reporting time 93% and drove $1.2M in tested revenue in my current role</span>, I'm excited by <span class="fill">Company's</span> <span class="fill">investment in self-serve analytics / specific thing from the job post</span>.</p>
+<div class="hint">PARAGRAPH 2 — Proof: 2–3 bullets of quantified wins that map to the job description.</div>
+<p>What I'd bring to your team:</p>
+<p>• <span class="fill">Win 1 tied to the posting — e.g. "I built Tableau dashboards adopted by 200+ stakeholders, cutting ad-hoc requests 55%."</span><br>
+• <span class="fill">Win 2 — e.g. "I automated month-end close reporting with Python/SQL, from 6 days to 4 hours."</span><br>
+• <span class="fill">Win 3 — e.g. "I designed pricing A/B tests; the winning variant added $1.2M in annual revenue."</span></p>
+<div class="hint">PARAGRAPH 3 — Why them: one specific, genuine reason this company/role. Shows you read the posting.</div>
+<p><span class="fill">Company's</span> <span class="fill">specific product, mission, or data challenge</span> is exactly the kind of problem I do my best work on — <span class="fill">one line connecting your experience to it</span>.</p>
+<div class="hint">CLOSE — confident, short, with a call to action.</div>
+<p>I'd love to discuss how I can help <span class="fill">Company</span> <span class="fill">make faster, better-tested decisions</span>. Thank you for your time and consideration.</p>
+<p>Best regards,<br><span class="fill">Your Name</span></p>
+</div>
+</body>
+</html>

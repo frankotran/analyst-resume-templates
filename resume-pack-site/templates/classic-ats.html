@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Classic ATS — Resume Template</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,"Times New Roman",serif;color:#000;background:#eef0ee;line-height:1.5}
+.page{max-width:760px;margin:32px auto;background:#fff;padding:48px;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+h1{font-size:26px;text-align:center}
+.center{text-align:center;font-size:13.5px;margin:6px 0 4px}
+h2{font-size:14px;text-transform:uppercase;border-bottom:1px solid #000;margin:20px 0 8px;padding-bottom:3px;letter-spacing:1px}
+.job{margin-bottom:12px}
+.job-line{font-size:14.5px}
+ul{margin:4px 0 0 20px;font-size:14px}
+li{margin-bottom:4px}
+p{font-size:14px}
+.toolbar{position:fixed;top:0;left:0;right:0;background:#0c1210;color:#eaf3ec;padding:10px 20px;font-size:13px;display:flex;gap:14px;align-items:center;z-index:99;font-family:-apple-system,sans-serif}
+.toolbar button{background:#3ddc84;border:none;border-radius:8px;padding:8px 16px;font-weight:700;cursor:pointer}
+.toolbar a{color:#3ddc84}
+@page{size:Letter;margin:0.7in}
+@media print{.toolbar{display:none}.page{margin:0;box-shadow:none;max-width:none;padding:0}body{background:#fff}}
+</style>
+</head>
+<body>
+<div class="toolbar">✏️ Replace the sample text with yours, then <button onclick="window.print()">Print / Save as PDF</button> <a href="../index.html">← Back to store</a></div>
+<div class="page">
+<h1>JORDAN LEE</h1>
+<p class="center">Senior Data Analyst | Chicago, IL | jordan.lee@email.com | (312) 555-0148 | linkedin.com/in/jordanlee</p>
+
+<h2>Professional Summary</h2>
+<p>Results-driven Senior Data Analyst with 5+ years of experience in SQL, Python, and BI platforms. Proven record of automating reporting, designing experiments, and delivering insights that drive revenue and efficiency.</p>
+
+<h2>Professional Experience</h2>
+<div class="job">
+<p class="job-line"><b>Senior Data Analyst</b> — Lakeshore Foods, Chicago, IL &nbsp;|&nbsp; 2022 – Present</p>
+<ul>
+<li>Developed self-serve Tableau dashboards used by 200+ stakeholders, reducing ad-hoc data requests by 55 percent.</li>
+<li>Automated month-end close reporting using Python and SQL, decreasing processing time from 6 days to 4 hours.</li>
+<li>Designed and analyzed A/B tests for pricing strategy; implemented variant projected to add $1.2M in annual revenue.</li>
+<li>Rebuilt revenue forecasting model with Finance, improving forecast accuracy from 78 percent to 91 percent.</li>
+</ul>
+</div>
+<div class="job">
+<p class="job-line"><b>Data Analyst</b> — Midwest Parcel Co., Columbus, OH &nbsp;|&nbsp; 2020 – 2022</p>
+<ul>
+<li>Owned KPI reporting across 3 distribution centers; identified carrier cost anomaly saving $340K annually.</li>
+<li>Migrated 40+ manual Excel reports to Power BI, eliminating 15 hours of weekly manual effort.</li>
+<li>Authored parameterized SQL templates adopted as standard by a 12-person analytics team.</li>
+</ul>
+</div>
+
+<h2>Technical Skills</h2>
+<p>SQL (MSSQL, MySQL), Python (pandas, PySpark), Tableau, Power BI, Looker, Databricks, dbt, Snowflake, Airflow, A/B Testing, Forecasting, Cohort Analysis</p>
+
+<h2>Education</h2>
+<p><b>Master of Science, Business Analytics</b> — DePaul University, 2020<br>
+<b>Bachelor of Arts, Economics</b> — Ohio State University, 2018</p>
+</div>
+</body>
+</html>
