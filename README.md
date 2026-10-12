@@ -25,13 +25,13 @@ A $0-budget digital product store: a GitHub Pages landing page selling ATS-frien
 ### 2. Connect checkout (Stripe Payment Links — free)
 1. Create a free account at https://stripe.com (no monthly fee; Stripe takes 2.9% + $0.30 per sale)
 2. Dashboard → **Payment Links** → **Create payment link**
-   - Product: "Resume Pack", price **$19.99** one-time
+   - Product: "Resume Pack", price **$4.99** one-time
    - Under "After payment" → redirect customers to: `https://frankotran.github.io/analyst-resume-templates/download.html`
 3. Copy the payment link URL, then in `index.html` find `const STRIPE_URL = "";` and paste your link between the quotes
 4. Commit the change — checkout is live
 
 ### Money math
-$19.99/sale − Stripe fee (~$0.88) = **~$19.11 net per sale**. 10 sales/month ≈ $190/mo for a site that costs $0 to run.
+$4.99/sale − Stripe fee (~$0.45) = **~$4.54 net per sale**. 10 sales/month ≈ $45/mo for a site that costs $0 to run.
 
 ## Upgrade paths (later, still cheap)
 - **Gumroad** (free to start, 10% fee) instead of Stripe if you want built-in delivery + license keys
