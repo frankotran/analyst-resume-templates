@@ -246,7 +246,7 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-s
 // const STRIPE_URL = "https://buy.stripe.com/abc123...";
 // (Stripe Dashboard → Payment Links → Create, it's free.)
 // ═══════════════════════════════════════════════════════════
-const STRIPE_URL = "";
+const STRIPE_URL = "https://buy.stripe.com/aFa9AT52FbGh58Sas3ejK00";
 document.getElementById('buy-btn').addEventListener('click', function(e){
   if(!STRIPE_URL){ e.preventDefault(); alert("Checkout isn't live yet — the owner is still connecting Stripe (takes ~10 min). Check back soon!"); }
   else { this.href = STRIPE_URL; }
